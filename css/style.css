@@ -1,0 +1,147 @@
+@import url(https://fonts.googleapis.com/css?family=Cedarville+Cursive);
+
+/* CSS reset
+   (all the browsers will see the website in the same by setting every tag to 0 (the website will the same on all browsers))
+   */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+}
+
+
+/* General Styles
+     (the styles used everywhere in the page(ex: the Body) or styles which are used in more than 2 of the modules bellow ( h2,h3,h4,h5,h6,p,a,ul,li))
+*/
+
+html {
+    background: url("../images/shoppingcart1.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    font-family: 'Courgette', cursive;
+    color: #0D59A9;
+    font-weight: 400;
+}
+
+.wrapper {
+    -webkit-box-shadow: 0px 0px 15px 8px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 15px 8px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px 8px rgba(0, 0, 0, 0.75);
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background: url("../images/notepad.png") no-repeat center center fixed;
+    opacity: 0.9;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.title,
+.content,
+footer {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-top: 50px;
+}
+
+
+/*Header styles*/
+
+.title h1 {
+    text-align: center;
+    font-size: 500%;
+    padding: 4rem 0 2rem 0;
+    text-shadow: 2px 2px 2px #04D2F3;
+    color: #7D0DA9;
+}
+
+
+/*Content styles*/
+
+.content #addItem,
+.content #addItemValue {
+    background-color: #4E0DA9;
+    border-color: #0D59A9;
+    border-radius: 4px;
+    border-style: none;
+    color: white;
+    padding: 0.3rem;
+    text-align: center;
+    text-shadow: none;
+    width: auto;
+}
+
+.content ul {
+    list-style: outside none none;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content li {
+    display: block;
+    height: auto;
+    margin-top: 0.5em;
+    padding-bottom: 1px;
+    padding-right: 85px;
+    padding-top: 1px;
+}
+
+content li {
+    text-align: left;
+}
+
+.content .ticked {
+    background-color: #DDAAB2;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding-bottom: 1px;
+    padding-top: 1px;
+}
+
+.content .checkbox,
+.content .delete {
+    background-color: rgba(233, 30, 99, 0.56);
+    border-radius: 0.25rem;
+    border-style: none;
+    color: #A90D0D;
+    height: 28px;
+    margin-left: 1.2em;
+    margin-right: 1.2em;
+    width: 28px;
+}
+
+.content .delete {
+    float: right;
+}
+
+footer button {
+    background-color: #C70404;
+    border-color: #0D59A9;
+    border-radius: 5px;
+    border-style: none;
+    color: white;
+    font-size: 1.125rem;
+    margin-top: 1rem;
+    padding: 0.2rem 1.5rem;
+    text-align: center;
+    text-shadow: none;
+    width: 8.688rem;
+}
+
+
+/*Footer styles
